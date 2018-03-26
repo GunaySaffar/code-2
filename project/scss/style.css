@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.between {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.lists > li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.lists ul > li {
+  display: block;
+  margin-bottom: 22px;
+}
+
+li {
+  line-height: 1.6 !important;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+footer .lists h3 {
+  font-size: 18.75px;
+  font-family: visby_cfextra_bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+footer .contact-details {
+  font-family: visby_cfmedium;
+  font-size: 15px;
+  color: #6f6f6f;
+  letter-spacing: 1px;
+}
+
+footer .contact-details h3 {
+  font-size: 18.75px;
+  font-family: visby_cfextra_bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+footer .contact-details .social-icons li a {
+  font-size: 22px;
+  padding: 0 8px;
+}
+
+.student-holder {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.wrapper {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.graduate-panel {
+  min-height: 314px;
+  width: 57.4%;
+  padding: 37px 46px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2.424px 4.373px 17px 0 rgba(0, 0, 0, 0.14);
+}
+
+.icon-hold {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+
+.icon-panel {
+  left: 0;
+  right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
